@@ -9,5 +9,5 @@
     
      steps:
        - checkout
-       - run: dotnet add package Microsoft.Win32.Registry
+       - run: dotnet add C:\Users\yaniv\Desktop\Github\AirPodsUI\AirPodsUI.Configurator\AirPodsUI.Configurator.csproj package Microsoft.Win32.Registry
        - run: dotnet build
